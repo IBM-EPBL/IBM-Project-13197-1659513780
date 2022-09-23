@@ -1,0 +1,9 @@
+import random
+while(True):
+ a=random.randint(10,99)
+ b=random.randint(10,99)
+ if(a>25 and b>70):
+    print("Temperature and humidity of:",a,b,"%","Alarm is on")
+ elif(a<25 and b<70):
+    print("Temperature and humidity of:", a,b,"%","Alarm is off")
+    break
